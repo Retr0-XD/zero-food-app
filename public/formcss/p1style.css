@@ -1,0 +1,75 @@
+
+body{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    //background-color:rgb(243, 192, 96);
+    //background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );
+    //background-image: linear-gradient( 64.3deg,  rgba(254,122,152,0.81) 17.7%, rgba(255,206,134,1) 64.7%, rgba(172,253,163,0.64) 112.1% );
+    //background-image: radial-gradient( circle 345px at 3.1% 89.3%,  rgba(254,223,45,0.46) 0%, rgba(254,139,45,0.46) 31.9%, rgba(255,24,220,0.46) 62%, rgba(24,145,255,0.46) 85.8% );
+    //background-image: linear-gradient( 109.6deg,  rgba(245,56,56,1) 11.2%, rgba(234,192,117,1) 78% );  
+    background-image: linear-gradient( 118.2deg,  rgba(243,156,18,1) 20.7%, rgba(255,0,97,1) 96.9% );
+  }
+  /* .form-details
+  {
+    max-width: 800px;
+    width: 100%;
+    height: 600px;
+    background-color: #fff;
+    margin: 6% auto;
+    position: relative;
+   border-radius: 10px;
+  box-shadow: -1px 5px 10px 5px rgba(0,0,0,0.3);
+   padding :20px;
+   overflow: hidden;
+  } */
+  .button-box
+  {
+    width: 220px;
+  
+    margin:35px auto;
+    position:relative;
+    top:15px;
+    box-shadow: 0 0 10px 5px #f0ddc0;
+    border-radius: 30px;
+  
+  }
+  .toggle-btn{
+    padding: 10px 30px;
+    cursor:pointer;
+   background: transparent;
+   border:0;
+   /* outline:none; */
+   position :relative;
+  
+  }
+  #btn{
+    /* top:0;
+    left:0; */
+   background: hsla(29, 100%, 51%, 0.963);
+   position: absolute;
+   width: 110px;
+   height: 100%;
+  border-radius: 30px;
+  transition: 0.5s;
+  
+  }
+  
+
+.logo-image img {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+
+.iconn{
+  position:absolute;
+  top:5px;
+  left:10px;
+  width: 13%;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

@@ -1,0 +1,270 @@
+.logo-image img {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+.gap li {
+    margin-right: 30px;
+}
+
+.header {
+    background: black;
+    font-weight: 20px;
+    opacity: 0.9;
+}
+
+.n {
+    text-decoration: none;
+    color: rgb(224, 222, 222);
+    margin-left: 20px;
+}
+
+.n:hover {
+    color: aliceblue;
+}
+
+.active a {
+    color: orange;
+}
+
+.top {
+    background: url('https://media.greenmatters.com/brand-img/ceb5WYQXC/0x0/why-is-the-sky-yellow-1597952184921.jpg') no-repeat center center;
+    height: 600px;
+    background-size: cover;
+    z-index: 1;
+}
+
+.donor {
+    background-color: orange;
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+    box-shadow: 0 5px 20px -5px rgb(0 0 0 / 50%);
+    transition: all 0.2s ease-in-out;
+    color:white;
+    border-radius:20px;
+}
+
+.donor:hover {
+    background-color:rgb(246, 198, 85);
+    color: black;
+}
+
+.ftco-section {
+    margin: 200px 0 0;
+}
+
+.mid{
+    margin-top:100px;
+}
+
+.row {
+    display: inline-block;
+}
+
+.col-lg-4 {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 66px -12px rgba(0, 0, 0, 20%);
+    margin: 40px 80px !important;
+    padding-bottom: 70px;
+    width: 100px;
+    height: 200px;
+}
+
+
+.media img {
+    width: 100px;
+    height: 70px;
+    margin-right: 20px;
+}
+
+.gallery img {
+    height: 300px;
+    width: 100%;
+    margin-bottom:30px;
+}
+
+.ftco-footer {
+    font-size: 16px;
+    padding: 7em 0;
+    background: #252525;
+}
+
+.ftco-footer .ftco-footer-logo {
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.ftco-footer .ftco-footer-widget h2 {
+    font-weight: normal;
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.ftco-footer .ftco-footer-widget h2:after {
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    content: '';
+    width: 70px;
+    height: 1px;
+    background: #fff;
+}
+
+.ftco-footer .ftco-footer-widget ul li a span {
+    color: #fff;
+}
+
+.ftco-footer .ftco-footer-widget .btn-primary {
+    background: #fff !important;
+    border: 2px solid #fff !important;
+}
+
+.ftco-footer .ftco-footer-widget .btn-primary:hover {
+    background: #fff;
+    border: 2px solid #fff !important;
+}
+
+.ftco-footer p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.ftco-footer a {
+    color: rgba(242, 134, 39, 0.966);
+}
+
+.ftco-footer a:hover {
+    color: #fff;
+}
+
+.ftco-footer .ftco-heading-2 {
+    font-size: 17px;
+    font-weight: 400;
+    color: #000;
+}
+
+.ftco-footer .block-21 .text .heading {
+    font-size: 18px;
+}
+
+.ftco-footer .block-21 .text .heading a {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.ftco-footer .block-21 .text .heading a:hover,
+.ftco-footer .block-21 .text .heading a:active,
+.ftco-footer .block-21 .text .heading a:focus {
+    color: #f86f2d;
+}
+
+.ftco-footer .block-21 .text .meta>div {
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.ftco-footer .block-21 .text .meta>div a {
+    color: gray;
+}
+
+.info a {
+    color: orange;
+}
+
+.list-unstyled {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-unstyled a {
+    text-decoration: none;
+}
+
+.block-23 ul {
+    padding: 0;
+}
+
+.block-23 ul li,
+.block-23 ul li>a {
+    display: table;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.block-23 ul li span {
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+.block-23 ul li .icon,
+.block-23 ul li .text {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.block-23 ul li .icon {
+    width: 40px;
+    font-size: 18px;
+    padding-top: 2px;
+    color: white;
+    flex-direction: column;
+}
+.xyz{
+    display:flex;
+    flex-direction:column;
+}
+.xyz a{
+    text-decoration:none;
+}
+.xyz .text{
+    color:rgb(222, 219, 219);
+}
+
+.bn632-hover {
+    width: 260px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 75px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:focus {
+    outline: none;
+  }
+  
+  .bn632-hover.bn19 {
+    background-image: linear-gradient(
+      to right,
+      #f5ce62,
+      #e43603,
+      #fa7199,
+      #e85a19
+    );
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+  }

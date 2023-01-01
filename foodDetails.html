@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="/formcss/style.css">
+  <link rel="icon" href="/images/iconn.png">
+  <title>donation</title>
+</head>
+
+<body>
+  <div class="iconn">
+    <table class="iconn"style="width:100%">
+      <tr>
+        <td><span class="logo-image">
+          <a href"/"><img src="/images/iconn.png" class="img-fluid"></a>
+      </span></td>
+        <td><b>Zero Food App</td>
+      </tr>
+    </table>
+  </div>
+
+
+  <div class="container">
+    <div class="title">Food Donation Details</div>
+    <div class="content">
+      <form method="post">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Food Name</span>
+            <input type="text"  name="name" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Food Type</span>
+            <input type="text" name="foodType" placeholder="Wet/Dry" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Address</span>
+            <input type="text" name="address" placeholder="Enter your Address" required>
+          </div>
+          <div class="input-box">
+            <span class="details">City</span>
+            <input type="text" name="city" placeholder="Enter your City" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="phonenumber" name="phoneNo" placeholder="Enter your number"  pattern="[0-9]{10}"required>
+          </div>
+          <div class="input-box">
+            <span class="details">Pickup-Time</span>
+            <input type="time" name="pickupTime" placeholder="Available at" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Date</span>
+            <input type="date" name="date" placeholder="Available on" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Number Of Plates</span>
+            <input type="number" name="NumberOfPlates" placeholder="Enter number of plates" required>
+          </div>
+
+        </div>
+
+        <div class="button">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

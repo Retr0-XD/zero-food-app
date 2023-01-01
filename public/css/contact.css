@@ -1,0 +1,262 @@
+.logo-image img {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+.header {
+    background: black;
+    font-weight: 20px;
+    opacity: 0.9;
+}
+
+.n{
+    text-decoration:none;
+    color:rgb(224, 222, 222);
+    margin-left:20px;
+}
+.n:hover{
+    color:aliceblue;
+}
+.active a{
+    color:orange;
+}
+
+.n{
+    text-decoration:none;
+    color:white;
+    margin-left:20px;
+}
+.active a{
+    color:orange;
+}
+
+.gap li {
+    margin-right: 30px;
+}
+.hero-wrap{
+    background: url('https://fluentsupport.com/wp-content/uploads/2022/09/Feedback-form-examples-and-templates-that-work-01-min.jpg') no-repeat center center;
+    height: 600px;
+    background-size: cover;
+    z-index: 1;
+}
+.m3{
+    color: black;
+    margin-top: 100px !important;
+    font-size:50px;
+}
+.contact-info
+{
+  padding-top: 80px;
+}
+
+.col-md-3 a{
+    color:orange;
+}
+
+#char{
+    color:orange;
+    text-align:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ftco-footer {
+    font-size: 16px;
+    padding: 7em 0;
+    background: #252525;
+}
+
+.ftco-footer .ftco-footer-logo {
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.ftco-footer .ftco-footer-widget h2 {
+    font-weight: normal;
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.ftco-footer .ftco-footer-widget h2:after {
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    content: '';
+    width: 70px;
+    height: 1px;
+    background: #fff;
+}
+
+.ftco-footer .ftco-footer-widget ul li a span {
+    color: #fff;
+}
+
+.ftco-footer .ftco-footer-widget .btn-primary {
+    background: #fff !important;
+    border: 2px solid #fff !important;
+}
+
+.ftco-footer .ftco-footer-widget .btn-primary:hover {
+    background: #fff;
+    border: 2px solid #fff !important;
+}
+
+.ftco-footer p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.ftco-footer a {
+    color: rgba(242, 134, 39, 0.966);
+}
+
+.ftco-footer a:hover {
+    color: #fff;
+}
+
+.ftco-footer .ftco-heading-2 {
+    font-size: 17px;
+    font-weight: 400;
+    color: #000;
+}
+
+.ftco-footer .block-21 .text .heading {
+    font-size: 18px;
+}
+
+.ftco-footer .block-21 .text .heading a {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.ftco-footer .block-21 .text .heading a:hover,
+.ftco-footer .block-21 .text .heading a:active,
+.ftco-footer .block-21 .text .heading a:focus {
+    color: #f86f2d;
+}
+
+.ftco-footer .block-21 .text .meta>div {
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.ftco-footer .block-21 .text .meta>div a {
+    color: gray;
+}
+
+.info a {
+    color: orange;
+}
+
+.list-unstyled {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-unstyled a {
+    text-decoration: none;
+}
+
+.block-23 ul {
+    padding: 0;
+}
+
+.block-23 ul li,
+.block-23 ul li>a {
+    display: table;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.block-23 ul li span {
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+.block-23 ul li .icon,
+.block-23 ul li .text {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.block-23 ul li .icon {
+    width: 40px;
+    font-size: 18px;
+    padding-top: 2px;
+    color: white;
+    flex-direction: column;
+}
+.xyz{
+    display:flex;
+    flex-direction:column;
+}
+.xyz a{
+    text-decoration:none;
+}
+.xyz .text{
+    color:rgb(222, 219, 219);
+}
+
+.form-group
+{
+    margin-bottom: 15px;
+}
+.te{
+    margin-bottom: 80px;
+}
+   

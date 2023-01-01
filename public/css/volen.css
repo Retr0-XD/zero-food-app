@@ -1,0 +1,353 @@
+body{
+    overflow-x:hidden
+}
+
+.logo-image img {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+.gap li {
+    margin-right: 30px;
+}
+
+.header {
+    background: black;
+    font-weight: 20px;
+
+}
+
+.n {
+    text-decoration: none;
+    color: rgb(224, 222, 222);
+    margin-left: 20px;
+}
+
+.n:hover {
+    color: aliceblue;
+}
+
+.active a {
+    color: orange;
+}
+
+.top {
+    background: url('/images/vol.png') no-repeat center center;
+    height: 600px;
+    background-size: cover;
+    z-index: 1;
+}
+
+.wax {
+    color: aliceblue;
+}
+
+.teddy {
+    margin: 80px 40px 40px 40px;
+    display:flex;
+    flex-direction:row;
+}
+
+
+
+
+.title {
+    margin: 0 30px;
+}
+
+.cards {
+
+    display: flex;
+    justify-content:center;
+    margin: 0;
+    flex-direction:row;
+}
+
+.card-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    position: absolute;
+    top: 60px;
+    left:20px;
+    /* left: px; */
+    width:300px;
+    
+    height: 30px;
+    padding: 10px;
+   
+   
+}
+
+
+.location {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    width: 300px;
+    height: 30px;
+    padding-top: 10px;
+   
+}
+
+.time {
+    position: absolute;
+    top: 140px;
+    left: 20px;
+    width: 300px;
+    height: 30px;
+    padding-top: 10px;
+   
+  
+    
+}
+.food{
+    position: absolute;
+    top: 180px;
+    left: 20px;
+    width: 300px;
+    height: 30px;
+    padding-top: 10px;
+   
+}
+
+.date{
+    position: absolute;
+    top: 220px;
+    left: 20px;
+    width: 300px;
+    height: 30px;
+    padding-top: 10px;
+   ;
+}
+
+.card {
+    position:relative;
+    right:480px;
+    height: 260px;
+    width: 300px;
+    /* background: hsl(0, 20%, 97%); */
+     border-radius: 15px ;
+    box-shadow: 1px 1px 1px #888888;
+    margin-left: 2px;
+
+}
+
+h1{
+    margin:60px 0 60px;
+    text-align:center;
+}
+.horizontal{
+    display:flex;
+    justify-content:space-around;
+    flex-direction:row;
+}
+.donor1{
+    box-shadow:none !important;
+    position:relative;
+    left: 1100px;
+    top:30px;
+}
+
+.button {
+    width: 260px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 75px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-color: rgb(233, 190, 69);
+}
+
+.button:hover {
+    background-color:rgb(243, 192, 96);
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ftco-footer {
+    font-size: 16px;
+    padding: 7em 0;
+    background: #252525;
+}
+
+.ftco-footer .ftco-footer-logo {
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.ftco-footer .ftco-footer-widget h2 {
+    font-weight: normal;
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.ftco-footer .ftco-footer-widget h2:after {
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    content: '';
+    width: 70px;
+    height: 1px;
+    background: #fff;
+}
+
+.ftco-footer .ftco-footer-widget ul li a span {
+    color: #fff;
+}
+
+.ftco-footer .ftco-footer-widget .btn-primary {
+    background: #fff !important;
+    border: 2px solid #fff !important;
+}
+
+.ftco-footer .ftco-footer-widget .btn-primary:hover {
+    background: #fff;
+    border: 2px solid #fff !important;
+}
+
+.ftco-footer p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.ftco-footer a {
+    color: rgba(242, 134, 39, 0.966);
+}
+
+.ftco-footer a:hover {
+    color: #fff;
+}
+
+.ftco-footer .ftco-heading-2 {
+    font-size: 17px;
+    font-weight: 400;
+    color: #000;
+}
+
+.ftco-footer .block-21 .text .heading {
+    font-size: 18px;
+}
+
+.ftco-footer .block-21 .text .heading a {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.ftco-footer .block-21 .text .heading a:hover,
+.ftco-footer .block-21 .text .heading a:active,
+.ftco-footer .block-21 .text .heading a:focus {
+    color: #f86f2d;
+}
+
+.ftco-footer .block-21 .text .meta>div {
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.ftco-footer .block-21 .text .meta>div a {
+    color: gray;
+}
+
+.info a {
+    color: orange;
+}
+
+.list-unstyled {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-unstyled a {
+    text-decoration: none;
+}
+
+.block-23 ul {
+    padding: 0;
+}
+
+.block-23 ul li,
+.block-23 ul li>a {
+    display: table;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.block-23 ul li span {
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+.block-23 ul li .icon,
+.block-23 ul li .text {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.block-23 ul li .icon {
+    width: 40px;
+    font-size: 18px;
+    padding-top: 2px;
+    color: white;
+    flex-direction: column;
+}
+
+.xyz {
+    display: flex;
+    flex-direction: column;
+}
+
+.xyz a {
+    text-decoration: none;
+}
+
+.xyz .text {
+    color: rgb(222, 219, 219);
+}
+.filter
+{  
+    margin:0 5px;
+    width:100%;
+    padding:50px;
+    background:#FCF8E8;
+    box-shadow:0 1px 10px -5px;
+    border-radius:5px;
+    border:none;
+}
+.input-box{
+    font-size:20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+

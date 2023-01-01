@@ -1,0 +1,53 @@
+<meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/formcss/style.css">
+<link rel="icon" href="/images/iconn.png">
+  <title>Reset Password</title>
+</head>
+
+<body>
+
+  <div class="iconn">
+    <table class="iconn"style="width:100%">
+      <tr>
+        <td><span class="logo-image">
+          <a href="/"><img src="/images/iconn.png" class="img-fluid"></a>
+      </span></td>
+        <td><b>Food Dole</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="container">
+    <div class="title">Forget Password</div>
+    <div class="content">
+      <form method="post">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Email-Id <sup style="color:red;">*</sup></span>
+            <input type="email" name="emailId" required placeholder="Enter your email-Id">
+          </div>
+
+          <div class="input-box">
+            <span class="details">Password <sup style="color:red">*</sup></span>
+            <input type="password" name="password" required placeholder="Enter your new Password">
+          </div>
+
+          <div class="input-box">
+            <span class="details">Confrim Password<sup style="color:red">*</sup></span>
+            <input type="password" name="confirmPassword" required placeholder="Confirm Password">
+          </div>
+
+        </div>
+        <div class="button">
+          <input type="submit" name="button" value="Reset">
+        </div>
+        <p id="error" style="color:red;"><%=warning%></p>
+      </form>
+    </div>
+  </div>
+
+</body>
+
+</html>

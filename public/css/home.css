@@ -1,0 +1,354 @@
+.logo-image img {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+    bold;
+}
+
+.gap li {
+    margin-right: 30px;
+}
+
+.header {
+    background: black;
+    font-weight: 20px;
+    opacity: 0.9;
+}
+
+.n {
+    text-decoration: none;
+    color: rgb(224, 222, 222);
+    margin-left: 20px;
+}
+
+.n:hover {
+    color: aliceblue;
+}
+
+.active a {
+    color: orange;
+}
+
+.top {
+    background: url('http://www.sru.edu//images/news/2019/January/011619b-Inline.jpg') no-repeat center center;
+    height: 600px;
+    background-size: cover;
+    z-index: 1;
+}
+
+.m4 {
+    color: black;
+    margin-bottom: 1.5rem !important;
+    width:90%;
+    position:absolute;
+    left:70px;
+    top:340px;
+    font-weight:normal;
+    font-size: 60px;
+}
+
+.m5 {
+    color: aliceblue;
+}
+
+m5 span {
+    font-weight: bold;
+}
+
+.block-18 .icon>span {
+    font-size: 40px;
+}
+
+.ftco-intro {
+    margin-top: -90px;
+}
+
+.ftco-intro.ftco-intro-2 {
+    margin-top: 0 !important;
+}
+
+.ftco-intro .block-18 {
+    display: block;
+    width: 100%;
+    padding: 30px;
+    /* color: rgba(0, 0, 0, 0.7);  */
+}
+
+.ftco-intro .block-18.color-1 {
+    background: #f86f2d;
+}
+
+.ftco-intro .block-18.color-2 {
+    background: #fa8f3d;
+}
+
+.ftco-intro .block-18.color-3 {
+    background: #faaa3a;
+}
+
+.ftco-intro .block-18 .text strong {
+    font-size: 60px;
+    color: #000;
+    font-weight: 300;
+}
+
+.ftco-intro .block-18 .text span {
+    display: block;
+    color: #000;
+    font-size: 24px;
+}
+
+.col-md {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    z-index: 2;
+}
+
+.d-flex {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+
+.justify-content-center {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}
+
+.align-items-stretch {
+    -webkit-box-align: stretch !important;
+    -ms-flex-align: stretch !important;
+    align-items: stretch !important;
+}
+
+.donor {
+    background-color: rgba(0, 0, 0, alpha);
+    border: none;
+    border-radius: 2px;
+    padding: 20px;
+    box-shadow: 0 5px 20px -5px rgb(0 0 0 / 50%);
+    transition: all 0.2s ease-in-out;
+}
+
+.donor:hover {
+    background-color: black;
+    color: white;
+}
+
+.Volunteer {
+    background-color: rgba(0, 0, 0, alpha);
+    border: none;
+    border-radius: 2px;
+    padding: 20px;
+    box-shadow: 0 5px 20px -5px rgb(0 0 0 / 50%);
+    transition: all 0.2s ease-in-out;
+}
+
+.Volunteer:hover {
+    background-color: black;
+    color: white;
+}
+
+.ftco-section {
+    margin: 50px 0 0;
+}
+
+.mid{
+    margin-top:50px;
+}
+
+.row {
+    display: inline-block;
+}
+
+.col{
+    padding:0 !important;
+    box-shadow:0 0 50px -28px;
+    margin-right:2.5%;
+    margin-left:2.5%;
+    margin-bottom:5%;
+}
+.col-lg-4 {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 66px -24px rgba(0, 0, 0, 20%);
+    margin: 40px 80px !important;
+    padding-bottom: 20px;
+    width: 100px;
+    height: 200px;
+}
+
+
+.media img {
+    width: 100px;
+    height: 250px;
+    
+    
+}
+
+.gallery img {
+    height:100%;
+    width: 100%;
+    border-radius:5px;
+    transition:transform 2s ease in out;
+}
+
+.gallery img:hover {
+    box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 20%);
+    cursor:pointer;
+    transform:translate(0,-9px);
+    opacity:0.9;
+}
+
+.ftco-footer {
+    font-size: 16px;
+    padding: 7em 0;
+    background: #252525;
+}
+
+.ftco-footer .ftco-footer-logo {
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.ftco-footer .ftco-footer-widget h2 {
+    font-weight: normal;
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.ftco-footer .ftco-footer-widget h2:after {
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    content: '';
+    width: 70px;
+    height: 1px;
+    background: #fff;
+}
+
+.ftco-footer .ftco-footer-widget ul li a span {
+    color: #fff;
+}
+
+.ftco-footer .ftco-footer-widget .btn-primary {
+    background: #fff !important;
+    border: 2px solid #fff !important;
+}
+
+.ftco-footer .ftco-footer-widget .btn-primary:hover {
+    background: #fff;
+    border: 2px solid #fff !important;
+}
+
+.ftco-footer p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.ftco-footer a {
+    color: rgba(242, 134, 39, 0.966);
+}
+
+.ftco-footer a:hover {
+    color: #fff;
+}
+
+.ftco-footer .ftco-heading-2 {
+    font-size: 17px;
+    font-weight: 400;
+    color: #000;
+}
+
+.ftco-footer .block-21 .text .heading {
+    font-size: 18px;
+}
+
+.ftco-footer .block-21 .text .heading a {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.ftco-footer .block-21 .text .heading a:hover,
+.ftco-footer .block-21 .text .heading a:active,
+.ftco-footer .block-21 .text .heading a:focus {
+    color: #f86f2d;
+}
+
+.ftco-footer .block-21 .text .meta>div {
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.ftco-footer .block-21 .text .meta>div a {
+    color: gray;
+}
+
+.info a {
+    color: orange;
+}
+
+.list-unstyled {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-unstyled a {
+    text-decoration: none;
+}
+
+.block-23 ul {
+    padding: 0;
+}
+
+.block-23 ul li,
+.block-23 ul li>a {
+    display: table;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.block-23 ul li span {
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+.block-23 ul li .icon,
+.block-23 ul li .text {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.block-23 ul li .icon {
+    width: 40px;
+    font-size: 18px;
+    padding-top: 2px;
+    color: white;
+    flex-direction: column;
+}
+.xyz{
+    display:flex;
+    flex-direction:column;
+}
+.xyz a{
+    text-decoration:none;
+}
+.xyz .text{
+    color:rgb(222, 219, 219);
+}
+
+.profile{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="formcss/p2style.css">
+  <link rel="stylesheet" href="formcss/p1style.css">
+  <link rel="icon" href="/images/iconn.png">
+  <title>Donar's Form</title>
+  <style>
+    .form-details {
+      max-width: 800px;
+      width: 100%;
+      height: 600px;
+      background-color: #fff;
+      margin: 6% auto;
+      position: relative;
+      border-radius: 10px;
+      box-shadow: -1px 12px 10px rgba(0, 0, 0, 0.3);
+      padding: 20px;
+      overflow: hidden;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="iconn">
+    <table class="iconn"style="width:100%">
+      <tr>
+        <td><span class="logo-image">
+          <a href="/"><img src="/images/iconn.png" class="img-fluid"></a>
+      </span></td>
+        <td><b>Zero Food App</td>
+           
+      </tr>
+    </table>
+  </div>
+  <div class="form-details">
+    <div class="button-box">
+      <div id="btn"></div>
+
+      <button type="button" name="button" class="toggle-btn" onclick="Register()">Register</button>
+      <button type="button" name="button" class="toggle-btn" onclick="Login()">Login</button>
+    </div>
+    <div class="content">
+      <div id="registerform">
+        <form method="post">
+          <!--Action normally specifies the file/page that the form is submitted to (using the method described in the method paramater (post, get etc.))
+        An action of # indicates that the form stays on the same page, simply suffixing the url with a #. Similar use occurs in anchors. <a href=#">Link</a> for example, will stay on the same page.
+        Thus, the form is submitted to the same page, which then processes the data etc. -->
+          <div class="user-details">
+            <div class="input-box">
+              <span class="details">Full Name <superscript style="color:red;">*</superscript></span>
+              <input type="text" placeholder="Enter your name" name="name" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Username <superscript style="color:red;">*</superscript></span>
+              <input type="text" name="username" placeholder="Enter your username" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Email <superscript style="color:red;">*</superscript></span>
+              <input type="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Phone Number <superscript style="color:red;">*</superscript></span>
+              <input type="text" name="phoneNo" placeholder="Enter your number" pattern="[0-9]{10}" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Password <superscript style="color:red;">*</superscript></span>
+              <input type="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Confirm Password <superscript style="color:red;">*</superscript></span>
+              <input type="password" name="confrim password" placeholder="Confirm your password" required>
+            </div>
+          </div>
+          <div class="gender-details">
+            <input type="radio" name="gender" id="dot-1" value="male">
+            <input type="radio" name="gender" id="dot-2" value="female">
+            <input type="radio" name="gender" id="dot-3" value="no">
+            <span class="gender-title">Gender</span>
+            <div class="category">
+              <label for="dot-1">
+                <span class="dot one"></span>
+                <span class="gender">Male</span>
+              </label>
+              <label for="dot-2">
+                <span class="dot two"></span>
+                <span class="gender">Female</span>
+              </label>
+              <label for="dot-3">
+                <span class="dot three"></span>
+                <span class="gender">Prefer not to say</span>
+              </label>
+            </div>
+          </div>
+          <div class="button">
+            <input type="submit" name="button" value="Register" >
+          </div>
+          <p id="error" style="color:red;"><%=warning%></p>
+        </form>
+
+      </div>
+
+
+      <!-- login form -->
+      <div id="loginform">
+         <form method="post">
+          <br>
+          <div class="user-details">
+            <div class="input-box">
+              <span class="details">Email-Id <superscript style="color:red;">*</superscript></span>
+              <input type="email" name="emailId" placeholder="Enter your email-Id">
+            </div>
+            <br>
+            <div class="input-box">
+              <span class="details">Password <superscript style="color:red;">*</superscript></span>
+              <input type="password" name="password" placeholder="Enter your Password">
+            <p id="error"></p>  
+            </div>
+						<div class="button">
+              <input type="submit" name="button" value="Forgot Password?">
+            </div>
+            <div class="button">
+              <input type="submit" name="button" value="LogIn">
+            </div>
+          </div>
+         </form>
+
+      </div>
+    </div>
+  </div>
+  <script>
+    var x = document.getElementById("loginform");
+    var y = document.getElementById("registerform");
+    var z = document.getElementById("btn");
+    var a = document.querySelector(".form-details");
+    function Register() {
+      y.style.left = "10px";
+      x.style.left = "-1000px";
+      z.style.left = "0";
+      a.style.width= "100%";
+      a.style.height= "600px";
+    }
+
+    function Login() {
+      y.style.left = "1000px";
+      x.style.left = "10px";
+      z.style.left = "110px";
+      a.style.width= "50%";
+      a.style.height= "400px";
+    }
+  </script>
+  <script src="/index.js"></script>
+
+
+</body>
+
+</html>
